@@ -1,12 +1,12 @@
-import numpy as bc 
+import numpy as np 
 # ARRAY USE
 
-# arr=bc.array([1,2,3,4])
+# arr=np.array([1,2,3,4])
 # arr*=2
 # print(arr)
 
 # N-D ARRAY 
-arr = bc.array([[['A','B','C'],['D','E','F'],['G','H','I']],
+arr = np.array([[['A','B','C'],['D','E','F'],['G','H','I']],
                [['J','K','L'],['M','N','O'],['P','Q','R']],
                [['S','T','U'],['V','W','X'],['Y','Z','?']]])
 print(arr.ndim)
